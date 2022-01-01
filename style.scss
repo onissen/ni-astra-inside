@@ -9,4 +9,15 @@
  License:      GNU General Public License v2 or later
  License URI:  http://www.gnu.org/licenses/gpl-2.0.html
  Tags:         Intranet, Astra, Inside, Portfolio, Website, Information, Dokumentation
+ 
 */
+
+/**SCSS Imports**/
+@import "var";
+
+.ast-plain-container.ast-no-sidebar #primary {
+    margin: 4em 0;
+}
+.ast-below-header-wrap .ast-below-header-bar .ast-below-header  .site-header-focus-item {
+    background-color: $accent;
+}
