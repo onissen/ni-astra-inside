@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/**
+ *  Diese CSS-Datei dient dem Modifiing des Parent-Temes Astra. Allerdings wird sie nicht über das ChildTheme eingebunden sondern ist weitestgehend eigenständig.
+ *      Auf der Website eingebunden wird die Datei 'main-changes.css' über einen import im Zusätzlichen CSS des WordPress Customizers. */
+.pagetype-nomargin-sidebar {
+  margin-right: 15px;
+  margin-left: 15px;
+  max-width: none;
+}
+
+/*# sourceMappingURL=main-changes.css.map */
