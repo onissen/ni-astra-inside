@@ -1,5 +1,4 @@
 <?php
-require 'read-template.php';
 /**
  * The header for Astra Theme.
  *
@@ -62,5 +61,5 @@ if ( ! defined( 'ABSPATH' ) ) {
 	astra_content_before();
 	?>
 	<div id="content" class="site-content">
-		<div class="ast-container <?php echo $template_class;?>" id="test">
+		<div class="ast-container">
 		<?php astra_content_top(); ?>

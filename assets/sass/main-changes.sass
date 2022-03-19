@@ -4,3 +4,26 @@
 
 @import var
 @import page-modifier
+
+.um input[type="submit"].um-button:hover,
+.um a.um-button:hover,
+.um input[type="submit"].um-button,
+.um input[type="submit"].um-button:focus,
+.um a.um-button, .um a.um-button.um-disabled:hover,
+.um a.um-button.um-disabled:focus,
+.um a.um-button.um-disabled:active
+    background-color: $accent
+
+.um .um-button
+    color: $primary
+
+    &:hover
+        color: white
+
+.um .um-button.um-alt,
+.um input[type="submit"].um-button.um-alt
+    color: $button-discard-text
+    background-color: $button-discard-background
+
+    &:hover
+        background-color: $button-discard-bghover

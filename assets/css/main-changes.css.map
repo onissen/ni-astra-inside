@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../sass/main-changes.sass","../sass/_page-modifier.sass"],"names":[],"mappings":";AAAA;AAAA;AAAA;ACAA;EACI;EACA;EACA","file":"main-changes.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/main-changes.sass","../sass/_var.sass"],"names":[],"mappings":";AAAA;AAAA;AAAA;AAOA;AAAA;AAAA;AAAA;AAAA;AAAA;AAAA;EAOI,kBCbK;;;ADeT;EACI,OCjBM;;ADmBN;EACI;;;AAER;AAAA;EAEI,OCtBkB;EDuBlB,kBCtBwB;;ADwBxB;AAAA;EACI,kBCxBiB","file":"main-changes.css"}

@@ -2,10 +2,31 @@
 /**
  *  Diese CSS-Datei dient dem Modifiing des Parent-Temes Astra. Allerdings wird sie nicht über das ChildTheme eingebunden sondern ist weitestgehend eigenständig.
  *      Auf der Website eingebunden wird die Datei 'main-changes.css' über einen import im Zusätzlichen CSS des WordPress Customizers. */
-.pagetype-nomargin-sidebar {
-  margin-right: 15px;
-  margin-left: 15px;
-  max-width: none;
+.um input[type=submit].um-button:hover,
+.um a.um-button:hover,
+.um input[type=submit].um-button,
+.um input[type=submit].um-button:focus,
+.um a.um-button, .um a.um-button.um-disabled:hover,
+.um a.um-button.um-disabled:focus,
+.um a.um-button.um-disabled:active {
+  background-color: #F49900;
+}
+
+.um .um-button {
+  color: #1D1D1B;
+}
+.um .um-button:hover {
+  color: white;
+}
+
+.um .um-button.um-alt,
+.um input[type=submit].um-button.um-alt {
+  color: #666666;
+  background-color: #EEEEEE;
+}
+.um .um-button.um-alt:hover,
+.um input[type=submit].um-button.um-alt:hover {
+  background-color: #e5e5e5;
 }
 
 /*# sourceMappingURL=main-changes.css.map */
